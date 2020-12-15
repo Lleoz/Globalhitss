@@ -1,0 +1,18 @@
+<div class="col-12">
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <ng-container *ngFor="let item of precios">
+                <tr>
+                    <td>{{ item.versions[0].name }}</td>
+                    <td>{{ item.versions[0].price.amount | currency   }}</td>
+                </tr>
+            </ng-container>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <select class="col-md-12" name="" id="" (change)="change($event.target.value)">
+                <option [value]="item.id" *ngFor="let item of ofertas">{{ item.name }}</option>
+            </select>
+        </div>
+        <div class="col">
+            <div class="row">
+                <span>ID Oferta: {{ idOferta }}</span>
+            </div>
+            <div class="row">
+                <span>Nombre: {{ nombreOferta }}</span>
+            </div>
+        </div>
+    </div>
+</div>

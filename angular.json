@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "pruebaClaro"
+    }
+  },
+  "defaultProject": "pruebaClaro",
+  "cli": {
+    "analytics": "b528e42b-b592-47f9-8065-20dc5a5f2b20"
+  }
 }
